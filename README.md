@@ -1,5 +1,19 @@
-# vue_todolist
+# todo
 
-Author: 侯冰冰 刘丽华
+## Project setup
+```
+npm install
+```
 
-vue learn
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
+
+### Compiles and minifies for production
+```
+npm run build
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
