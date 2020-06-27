@@ -1,7 +1,7 @@
 <template>
     <div class='todo'>
         <h1>demo-todolist</h1>
-        <input type="text" placeholder="请输入内容" v-model="val">
+        <input type="text" placeholder="请输入内容" v-model="val" v-on:keyup.enter="add">
         <button @click="add">添加</button>
         <todoList></todoList>
     </div>
